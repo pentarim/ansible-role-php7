@@ -2,8 +2,6 @@
 
 An Ansible role that installs and configure PHP 7 on Debian/Ubuntu servers.
 
-Current PHP7 version: **7.0.0RC8**
-
 ## Requirements
 
 None.
@@ -12,7 +10,6 @@ None.
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    php_ppa: "ppa:ondrej/php-7.0"    
     php_packages:
       - php7.0-common
       - php7.0-cli
@@ -34,7 +31,7 @@ None.
 
     - hosts: webservers
       roles:
-        - { role: itcraftsmanpl.php7 }
+        - { role: pentarim.php7 }
 
 ## License
 

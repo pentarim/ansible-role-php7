@@ -1,5 +1,4 @@
 ---
-php_ppa: "ppa:ondrej/php-7.0"
 php_packages:
   - php7.0-common
   - php7.0-cli
@@ -9,7 +8,7 @@ php_packages:
   - php7.0-fpm
   - php7.0-mysql
   - php7.0-gd
-php_timezone: Europe/Warsaw
+php_timezone: Europe/London
 php_upload_max_filesize: "20M"
 php_post_max_size: "20M"
 php_memory_limit: "1024M"

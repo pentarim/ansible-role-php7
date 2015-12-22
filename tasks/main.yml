@@ -1,8 +1,4 @@
 ---
-- name: Add PPA Repository
-  sudo: yes
-  apt_repository: repo={{ php_ppa }}
-
 - name: Update apt
   sudo: yes
   apt: update_cache=yes
